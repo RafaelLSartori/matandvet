@@ -18,7 +18,7 @@ public class ExercicioMatriz09 {
             for (int j=0; j<4; j++) {
                 System.out.print(mat[i][j] + "\t");
             }
-            System.out.println("\n");
+
         }
     }
 }

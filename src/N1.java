@@ -48,6 +48,6 @@ public class N1 {
                 nota5++;
             }
         }
-        System.out.println("Nota 100: " + nota100 + ", nota 50: " + nota50 + ", nota 20: " + nota20 + ", nota 10: " + nota10 + ", nota 5: " + nota5);
+        JOptionPane.showMessageDialog(null,"Nota 100: " + nota100 + "\nNota 50: " + nota50 + "\nNota 20: " + nota20 + "\nNota 10: " + nota10 + "\nNota 5: " + nota5);
     }
 }
