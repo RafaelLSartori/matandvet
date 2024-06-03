@@ -1,10 +1,9 @@
-import javax.swing.*;
-
+import javax.swing.JOptionPane;
 public class N2_1 {
     public static void main(String[] args){
         int opc = 0;
-        int num= 0;
-        do{
+        int num = 0;
+        while(opc !=9){
             opc = Integer.parseInt(JOptionPane.showInputDialog(" Opção 1: Validar \n Opção 2: Convertar e Mostrar \n Opção 9: FIM "));
             switch(opc){
                 case 1: num = Fvalida(num);
@@ -16,7 +15,7 @@ public class N2_1 {
                 break;
                 default: JOptionPane.showMessageDialog(null,"INVÁLIDO.");
             }
-        } while(num !=9);
+        }
     }
     static int Fvalida(int n){
         n = Integer.parseInt(JOptionPane.showInputDialog("Digite um número: "));
